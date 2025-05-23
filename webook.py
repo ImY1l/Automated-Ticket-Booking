@@ -6,15 +6,11 @@ import time
 
 # === CONFIGURATION ===
 COLOR_RANGES = [
-    # Color 1 range (blueish)
     (np.array([100, 120, 40]), np.array([115, 255, 200])),
-    # Color 2 range (red/pink)
     (np.array([160, 200, 50]), np.array([170, 255, 255])),
-    # Color 3 range (yellow/orange)
     (np.array([20, 150, 0]), np.array([35, 255, 230])),
-    # Color 4 range (green)
-    (np.array([45, 100, 30]), np.array([75, 255, 180])),
-]
+    (np.array([60, 135, 140]), np.array([65, 170, 180]))
+]     
 
 CHECK_INTERVAL = 0.2
 ZOOM_DELAY = 0.2
