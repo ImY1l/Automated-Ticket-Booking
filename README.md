@@ -18,17 +18,18 @@ cd Automated-Ticket-Booking
 ```
 2- Configure Color Ranges
 ```python
-# If your sampled HSV is (62, 150, 163):
+# If your HSV is (62, 150, 163):
 lower = np.array([60, 135, 140])
 upper = np.array([65, 170, 180])
 ```
-> you can add more then one range.
+> You can add more than one range.  
+> ```python
 > COLOR_RANGES = [
 >   (np.array([100, 120, 40]), np.array([115, 255, 200])),
 >   (np.array([160, 200, 50]), np.array([170, 255, 255])),
 >   (np.array([20, 150, 0]), np.array([35, 255, 230])),
->   ...
 > ]
+> ```
 
 3- Run
 ```bash
