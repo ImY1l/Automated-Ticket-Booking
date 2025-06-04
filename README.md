@@ -2,8 +2,7 @@
 This Python script automates the process of selecting seats on a web-based seat map by detecting seat colors using OpenCV and PyAutoGUI. It is highly customizable—just update the color ranges to match your seat map!
 
 ## ⚙️ Usage
-Use this script when you are trying to buy tickets for high-demand events where seats sell out within seconds. The script will automatically and instantly select available seats as soon as they appear, giving you a better chance to secure tickets faster than manual clicking.
-The script captures a screenshot of the seat map and converts it to the HSV color space. It then applies predefined HSV ranges to create masks for the target seat colors.
+Use this script when you are trying to buy tickets for high-demand events where seats sell out within seconds. The script will automatically and instantly select available seats as soon as they appear, giving you a better chance to secure tickets faster than manual clicking. The script captures a the seat map and converts it to HSV color space. It then applies predefined HSV ranges to create masks for the target seat colors.
 
 ## 🔧 Prerequisites
 - OpenCV `pip install opencv-python`
@@ -26,5 +25,5 @@ upper = np.array([65, 170, 180])
   > you can add more then one range
 3- Run
 ```bash
-python seat_picker.py
+python webook.py
 ```
