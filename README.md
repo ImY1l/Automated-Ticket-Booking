@@ -22,7 +22,7 @@ cd Automated-Ticket-Booking
 lower = np.array([60, 135, 140])
 upper = np.array([65, 170, 180])
 ```
-  > you can add more then one range.
+> you can add more then one range.
 3- Run
 ```bash
 python webook.py
