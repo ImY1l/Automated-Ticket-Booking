@@ -41,4 +41,3 @@ Move your mouse to the TOP-LEFT corner of the seat map and press Enter.
 Move your mouse to the BOTTOM-RIGHT corner of the seat map and press Enter.
 Move your mouse over the 'Next: checkout' button and press Enter.
 ```
-<!---Video--->
